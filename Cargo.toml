@@ -16,6 +16,7 @@ exclude = [".github/", ".local/", ".claude/"]
 [package]
 name = "anonpool"
 version.workspace = true
+description = "Network Anonymized Mempools built on Mosaik"
 rust-version.workspace = true
 edition.workspace = true
 license.workspace = true
