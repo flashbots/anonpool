@@ -1,0 +1,27 @@
+[workspace]
+members = ["."]
+default-members = ["."]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.93"
+version = "0.1.0"
+license = "MIT"
+documentation = "https://docs.rs/anonpool"
+repository = "https://github.com/flashbots/anonpool"
+authors = ["Flashbots <info@flashbots.net>", "Karim Agha <karim@flashbots.net>"]
+exclude = [".github/", ".local/", ".claude/"]
+
+[package]
+name = "anonpool"
+version.workspace = true
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+documentation.workspace = true
+repository.workspace = true
+authors.workspace = true
+exclude.workspace = true
+
+[dependencies]
